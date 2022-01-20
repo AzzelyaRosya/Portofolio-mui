@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <AppBar position="static" sx={{ bgcolor: '#000' }}>
+    <AppBar position="static" sx={{ bgcolor: '#cc7a00' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography variant="h4" noWrap component="div" sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}>
@@ -44,57 +44,56 @@ const Header = () => {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-            <div className="hamburger">
-            <Link to="/" className="btn">
-                <MenuItem onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">Home</Typography>
-                </MenuItem>
-              </Link>
-              <Link to="/about" className="btn">
-                <MenuItem onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">About</Typography>
-                </MenuItem>
-              </Link>
-              <Link to="/project" className="btn">
-                <MenuItem onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">Project</Typography>
-                </MenuItem>
-              </Link>
-              <Link to="/contact" className="btn">
-                <MenuItem onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">Contact</Typography>
-                </MenuItem>
-              </Link>
-            </div>
+              <div className="hamburger">
+                <Link to="/" className="btn">
+                  <MenuItem onClick={handleCloseNavMenu}>
+                    <Typography textAlign="center">Home</Typography>
+                  </MenuItem>
+                </Link>
+                <Link to="/about" className="btn">
+                  <MenuItem onClick={handleCloseNavMenu}>
+                    <Typography textAlign="center">About</Typography>
+                  </MenuItem>
+                </Link>
+                <Link to="/project" className="btn">
+                  <MenuItem onClick={handleCloseNavMenu}>
+                    <Typography textAlign="center">Project</Typography>
+                  </MenuItem>
+                </Link>
+                <Link to="/contact" className="btn">
+                  <MenuItem onClick={handleCloseNavMenu}>
+                    <Typography textAlign="center">Contact</Typography>
+                  </MenuItem>
+                </Link>
+              </div>
             </Menu>
           </Box>
           <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             AZZELYA
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-          <div className="header">
-           <Link to="/" className="btn">
-              <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
-                Home
-              </Button>
-            </Link>
-            <Link to="/about" className="btn">
-              <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
-                About
-              </Button>
-            </Link>
-            <Link to="/project" className="btn">
-              <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
-                Project
-              </Button>
-            </Link>
-            <Link to="/contact" className="btn">
-              <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
-                Contact
-              </Button>
-            </Link>
-          </div>
-           
+            <div className="header">
+              <Link to="/" className="btn">
+                <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
+                  Home
+                </Button>
+              </Link>
+              <Link to="/about" className="btn">
+                <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
+                  About
+                </Button>
+              </Link>
+              <Link to="/project" className="btn">
+                <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
+                  Project
+                </Button>
+              </Link>
+              <Link to="/contact" className="btn">
+                <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
+                  Contact
+                </Button>
+              </Link>
+            </div>
           </Box>
         </Toolbar>
       </Container>
