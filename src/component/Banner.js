@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 
 export default function Banner() {
   return (
-    <div className="banner">
+    <div data-aos="fade-up" className="banner">
       <Container maxWidth="xl" style={{ marginTop: '55px' }}>
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={2}>

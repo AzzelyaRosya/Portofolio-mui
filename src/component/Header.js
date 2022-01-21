@@ -71,30 +71,32 @@ const Header = () => {
           <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             AZZELYA
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            <div className="header">
-              <Link to="/" className="btn">
-                <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
-                  Home
-                </Button>
-              </Link>
-              <Link to="/about" className="btn">
-                <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
-                  About
-                </Button>
-              </Link>
-              <Link to="/project" className="btn">
-                <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
-                  Project
-                </Button>
-              </Link>
-              <Link to="/contact" className="btn">
-                <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
-                  Contact
-                </Button>
-              </Link>
-            </div>
-          </Box>
+          <div className="hamburger">
+            <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+              <div className="header">
+                <Link to="/" className="btn">
+                  <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
+                    Home
+                  </Button>
+                </Link>
+                <Link to="/about" className="btn">
+                  <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
+                    About
+                  </Button>
+                </Link>
+                <Link to="/project" className="btn">
+                  <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
+                    Project
+                  </Button>
+                </Link>
+                <Link to="/contact" className="btn">
+                  <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
+                    Contact
+                  </Button>
+                </Link>
+              </div>
+            </Box>
+          </div>
         </Toolbar>
       </Container>
     </AppBar>

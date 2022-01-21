@@ -6,7 +6,7 @@ import Banner from './component/Banner';
 import About from './component/About';
 import Project from './component/Project';
 import Contact from './component/Contact';
-import Footer from './component/Footer';
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App(props) {
@@ -20,7 +20,6 @@ function App(props) {
           <Route path="/project" component={Project} />
           <Route path="/contact" component={Contact} />
         </Switch>
-        <Footer />
       </div>
     </Router>
   );

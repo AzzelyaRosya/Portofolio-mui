@@ -149,7 +149,17 @@ body {
   text-decoration: none;
 }
 
+/* hamburger */
+.hamburger {
+  color: #331f00;
+}
+
 /* banner */
 .banner .btn:hover {
+  background-color: #332900;
+}
+
+/* contact */
+.contact .btn:hover {
   background-color: #332900;
 }
