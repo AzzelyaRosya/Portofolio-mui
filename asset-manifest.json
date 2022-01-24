@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/Portofolio-mui/static/js/main.a1fbfda8.js",
+    "main.js": "/Portofolio-mui/static/js/main.4fbaf4a0.js",
     "static/media/perpus.png": "/Portofolio-mui/static/media/perpus.531fde46402c73424440.png",
     "static/media/ajjelkeren.png": "/Portofolio-mui/static/media/ajjelkeren.4563fb638e1510ede3ac.png",
     "static/media/jelss.png": "/Portofolio-mui/static/media/jelss.f8b6a840e2cb0131017a.png",
     "static/media/kalku.png": "/Portofolio-mui/static/media/kalku.780e8b429bdf973121b2.png",
     "index.html": "/Portofolio-mui/index.html",
-    "main.a1fbfda8.js.map": "/Portofolio-mui/static/js/main.a1fbfda8.js.map"
+    "main.4fbaf4a0.js.map": "/Portofolio-mui/static/js/main.4fbaf4a0.js.map"
   },
   "entrypoints": [
-    "static/js/main.a1fbfda8.js"
+    "static/js/main.4fbaf4a0.js"
   ]
 }
