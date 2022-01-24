@@ -147,6 +147,7 @@ body {
 
 .hamburger .btn {
   text-decoration: none;
+  color: #331f00;
 }
 
 /* hamburger */
@@ -162,4 +163,23 @@ body {
 /* contact */
 .contact .btn:hover {
   background-color: #332900;
+}
+
+/* skills */
+
+.skills .progress .html {
+  color: #fff;
+}
+
+/* icon */
+.skills .progress .uil-html5 {
+  color: orange;
+}
+
+.skills .progress .uil-css3-simple {
+  color: blue;
+}
+
+.skills .progress .uil-java-script {
+  color: red;
 }

@@ -3,7 +3,7 @@ import { Typography, Grid, Button, CardContent, Card, TextField } from '@mui/mat
 
 export default function Contact() {
   return (
-    <div className="contact">
+    <div data-aos="flip-left" className="contact">
       <Typography gutterBottom variant="h3" align="center" style={{ fontWeight: 'bold', color: '#4d2e00', marginTop: '5px' }}>
         Contact
       </Typography>

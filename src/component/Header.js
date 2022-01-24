@@ -45,7 +45,7 @@ const Header = () => {
               }}
             >
               <div className="hamburger">
-                <Link to="/" className="btn">
+                <Link to="/portofolio-mui/" className="btn">
                   <MenuItem onClick={handleCloseNavMenu}>
                     <Typography textAlign="center">Home</Typography>
                   </MenuItem>
@@ -74,7 +74,7 @@ const Header = () => {
           <div className="hamburger">
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
               <div className="header">
-                <Link to="/" className="btn">
+                <Link to="/portofolio-mui/" className="btn">
                   <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
                     Home
                   </Button>

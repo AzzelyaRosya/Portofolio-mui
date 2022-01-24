@@ -14,9 +14,9 @@ export default function Project() {
       <Grid container spacing={5} justifyContent="center" style={{ marginTop: '-20px' }}>
         <Grid item>
           {/* Card 1 */}
-          <Card sx={{ maxWidth: 450, backgroundColor: '#ffebcc' }}>
+          <Card data-aos="fade-right" sx={{ maxWidth: 450, backgroundColor: '#ffebcc' }}>
             <CardActionArea>
-              <CardMedia component="img" height="450" image={perpus} alt="Perpusdig" className="card-media" />
+              <CardMedia component="img" height="450" image={perpus} alt="perpus" className="card-media" />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   Perputakaan Online
@@ -30,7 +30,7 @@ export default function Project() {
         </Grid>
         <Grid item>
           {/* Card 2 */}
-          <Card sx={{ maxWidth: 450, backgroundColor: '#ffebcc' }}>
+          <Card data-aos="fade-left" sx={{ maxWidth: 450, backgroundColor: '#ffebcc' }}>
             <CardActionArea>
               <CardMedia component="img" height="450" image={kalku} alt="kalku" className="card-media" />
               <CardContent>

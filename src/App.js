@@ -15,7 +15,7 @@ function App(props) {
       <div className="App">
         <Header />
         <Switch>
-          <Route exact path="/" component={Banner} />
+          <Route exact path="/portofolio-mui/" component={Banner} />
           <Route path="/about" component={About} />
           <Route path="/project" component={Project} />
           <Route path="/contact" component={Contact} />
